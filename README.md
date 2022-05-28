@@ -9,7 +9,7 @@
 + tailwind para los estilos
 + typescript
 
-Para la aplicación móvil reusaría los componentes ya creados pero adaptándolos a los de React Native y usando la forma de estilar de este mismo.
+Para la aplicación móvil reusaría los componentes ya creados pero adaptándolos a los de React Native y usando la forma de estilar de este mismo. Aclarar que la aplicación es totalmente responsiva (si probais a cambiar de tamaño y se descuadra es por la librería de las gráficas que se ajusta al tamaño del principio, si recargais estando ya en ese tamaño se veria bien)
 
 <hr />
 
