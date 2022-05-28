@@ -1,26 +1,48 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/Header'
+import {
+  Chart as ChartJS,
+  ArcElement,
+  Tooltip,
+  Legend,
+  CategoryScale,
+  LinearScale,
+  PointElement,
+  LineElement,
+  Title,
+  Filler,
+} from 'chart.js'
+import LeftSideDashboard from './components/LeftSideDashboard'
+import RightSideDashboard from './components/RightSideDashboard'
+
+ChartJS.register(
+  ArcElement,
+  Tooltip,
+  Legend,
+  CategoryScale,
+  LinearScale,
+  PointElement,
+  LineElement,
+  Title,
+  Filler
+)
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='min-h-screen'>
+      <Header />
+      <div className='bg-[#F5F5F5]'>
+        <div className='container mx-auto py-4 font-light px-5 lg:px-0'>
+          <span>Dashboard</span>
+        </div>
+      </div>
+      <div className='px-5 lg:px-0 py-5'>
+        <div className='flex flex-col container mx-auto mt-5 space-y-5 xl:space-y-0 xl:flex-row xl:space-x-5'>
+          <LeftSideDashboard />
+          <RightSideDashboard />
+        </div>
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
