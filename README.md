@@ -1,5 +1,8 @@
 # Entrega Caixabank TECH Hackathon
 
+### Aparte de esta entrega también os dejo aquí el link del repositorio con el código de la aplicación realizada con react-native. Le pregunté a un mentor si podía entregar ambas y me dijo que os pusiera el link en el README.md
+[Neobanks React Native]
+
 > Librerías usadas
 + faker para generar datos aleatorios
 + react-chartjs-2 para las gráficas
@@ -16,4 +19,5 @@ Para la aplicación móvil reusaría los componentes ya creados pero adaptándol
 [<img align="left" alt="codeSTACKr | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
 
 
+[Neobanks React Native]: https://github.com/alevidals/neobanks-react-native
 [linkedin]: https://linkedin.com/in/alejandro-vidal-sanchez
